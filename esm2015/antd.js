@@ -19347,8 +19347,6 @@ class NzRangePickerComponent {
         // when the mode is month, not needed disable it
         this._disabledDatePart[RangePart.Start] = this._mode[RangePart.Start] === 'month' ? null : this._disabledDate;
         this._disabledDatePart[RangePart.End] = this._mode[RangePart.End] === 'month' ? null : this._disabledDate;
-        console.log(this._mode);
-        console.log(this._part);
     }
     /**
      * @return {?}
